@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		37517C6024C362990096E301 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37517C5F24C362990096E301 /* AppDelegate.swift */; };
 		37517C6224C362990096E301 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37517C6124C362990096E301 /* SceneDelegate.swift */; };
-		37517C6424C362990096E301 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37517C6324C362990096E301 /* ViewController.swift */; };
 		37517C6724C362990096E301 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37517C6524C362990096E301 /* Main.storyboard */; };
 		37517C6924C3629A0096E301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37517C6824C3629A0096E301 /* Assets.xcassets */; };
 		37517C6C24C3629A0096E301 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37517C6A24C3629A0096E301 /* LaunchScreen.storyboard */; };
+		37BE3FAC24C366B2002706CE /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BE3FAB24C366B2002706CE /* MainVC.swift */; };
+		37BE3FAE24C366BD002706CE /* PlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BE3FAD24C366BD002706CE /* PlayerVC.swift */; };
+		37BE3FB024C368CF002706CE /* UIImage+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BE3FAF24C368CF002706CE /* UIImage+Ext.swift */; };
+		37BE3FB224C36F8C002706CE /* SetttingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BE3FB124C36F8C002706CE /* SetttingsVC.swift */; };
+		37BE3FB424C36FF5002706CE /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BE3FB324C36FF5002706CE /* AlertHelper.swift */; };
+		37BE3FB624C370E3002706CE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BE3FB524C370E3002706CE /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		37517C5C24C362990096E301 /* YMusic.my.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMusic.my.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37517C5F24C362990096E301 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37517C6124C362990096E301 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		37517C6324C362990096E301 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		37517C6624C362990096E301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37517C6824C3629A0096E301 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37517C6B24C3629A0096E301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37517C6D24C3629A0096E301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37BE3FAB24C366B2002706CE /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		37BE3FAD24C366BD002706CE /* PlayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerVC.swift; sourceTree = "<group>"; };
+		37BE3FAF24C368CF002706CE /* UIImage+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Ext.swift"; sourceTree = "<group>"; };
+		37BE3FB124C36F8C002706CE /* SetttingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetttingsVC.swift; sourceTree = "<group>"; };
+		37BE3FB324C36FF5002706CE /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		37BE3FB524C370E3002706CE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,84 @@
 		37517C5E24C362990096E301 /* YMusic.my */ = {
 			isa = PBXGroup;
 			children = (
-				37517C5F24C362990096E301 /* AppDelegate.swift */,
-				37517C6124C362990096E301 /* SceneDelegate.swift */,
-				37517C6324C362990096E301 /* ViewController.swift */,
-				37517C6524C362990096E301 /* Main.storyboard */,
-				37517C6824C3629A0096E301 /* Assets.xcassets */,
-				37517C6A24C3629A0096E301 /* LaunchScreen.storyboard */,
+				37BE3FAA24C363BB002706CE /* Extensions */,
+				37BE3FA924C363B5002706CE /* AppDelegate */,
+				37BE3FA824C363B2002706CE /* Model */,
+				37BE3FA724C363AE002706CE /* View */,
+				37BE3FA624C363A6002706CE /* Controller */,
+				37BE3FA524C3639E002706CE /* Storyboards */,
+				37BE3FA424C36396002706CE /* Resources */,
+				37BE3FA324C3638D002706CE /* Supporting Files */,
 				37517C6D24C3629A0096E301 /* Info.plist */,
 			);
 			path = YMusic.my;
+			sourceTree = "<group>";
+		};
+		37BE3FA324C3638D002706CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37BE3FB324C36FF5002706CE /* AlertHelper.swift */,
+				37BE3FB524C370E3002706CE /* Constants.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37BE3FA424C36396002706CE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				37517C6824C3629A0096E301 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		37BE3FA524C3639E002706CE /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				37517C6524C362990096E301 /* Main.storyboard */,
+				37517C6A24C3629A0096E301 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		37BE3FA624C363A6002706CE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				37BE3FAB24C366B2002706CE /* MainVC.swift */,
+				37BE3FAD24C366BD002706CE /* PlayerVC.swift */,
+				37BE3FB124C36F8C002706CE /* SetttingsVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		37BE3FA724C363AE002706CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		37BE3FA824C363B2002706CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		37BE3FA924C363B5002706CE /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				37517C5F24C362990096E301 /* AppDelegate.swift */,
+				37517C6124C362990096E301 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		37BE3FAA24C363BB002706CE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				37BE3FAF24C368CF002706CE /* UIImage+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +217,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37517C6424C362990096E301 /* ViewController.swift in Sources */,
+				37BE3FB224C36F8C002706CE /* SetttingsVC.swift in Sources */,
+				37BE3FB024C368CF002706CE /* UIImage+Ext.swift in Sources */,
 				37517C6024C362990096E301 /* AppDelegate.swift in Sources */,
+				37BE3FAC24C366B2002706CE /* MainVC.swift in Sources */,
+				37BE3FB424C36FF5002706CE /* AlertHelper.swift in Sources */,
 				37517C6224C362990096E301 /* SceneDelegate.swift in Sources */,
+				37BE3FAE24C366BD002706CE /* PlayerVC.swift in Sources */,
+				37BE3FB624C370E3002706CE /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +371,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 452BPWXS55;
 				INFOPLIST_FILE = YMusic.my/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +379,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.den444ick.YMusic-my";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,6 +390,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 452BPWXS55;
 				INFOPLIST_FILE = YMusic.my/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +398,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.den444ick.YMusic-my";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
