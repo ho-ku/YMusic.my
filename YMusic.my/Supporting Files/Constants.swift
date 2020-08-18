@@ -10,4 +10,7 @@ import Foundation
 
 enum C: String {
     case videoLoadState = "videoLoadState"
+    case channelCellID = "channelCell"
+    case playlistCellID = "playlistCell"
+    case videoCellID = "videoCell"
 }
